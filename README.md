@@ -17,8 +17,8 @@ A simple **React + Redux Toolkit** application with **Formik, Yup, and Bootstrap
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Darshangohel2610/UserManagementPortal_redux.git
+cd UserManagementPortal_redux
 npm install
 ```
 
@@ -63,7 +63,7 @@ The API will now be available at:
 
 #### Start React App
 ```bash
-npm start
+npm run dev
 ```
 The React app will now be running at:
 📌 [http://localhost:3000](http://localhost:3000)
