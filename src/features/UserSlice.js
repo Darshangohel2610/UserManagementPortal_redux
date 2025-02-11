@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from "axios"
-const API_URL = 'https://api.myjson.online/v1/records/6c93294d-ea07-4704-9e13-8480e5af1f6d';
+const API_URL = 'http://localhost:5000/users';
 
 const uploadFile = (file) => {
     return new Promise((resolve) => {
@@ -12,6 +12,7 @@ const uploadFile = (file) => {
 
 export const fetchUsers = createAsyncThunk("users/fetchUsers", async()=>{
     const res = await axios.get(API_URL)
+    // console.log("API Response:",res.data)
     return res.data
 })
 
