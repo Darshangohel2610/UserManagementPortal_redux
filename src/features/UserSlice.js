@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from "axios"
-const API_URL = 'http://localhost:5000/users';
+const API_URL = 'https://my-json-server.typicode.com/Darshangohel2610/JSON_DB/users';
 
 const uploadFile = (file) => {
     return new Promise((resolve) => {
